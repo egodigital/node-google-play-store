@@ -153,8 +153,14 @@ export class Client {
                 for (const R of CSV) {
                     const COLUMNS = Object.keys(R);
 
+                    const DATE = R[COLUMNS[0]];
+
+                    if (DATE !== (reportDate as moment.Moment).format('YYYY-MM-DD')) {
+                        continue;
+                    }
+
                     ROWS.push({
-                        'Date': R[COLUMNS[0]],
+                        'Date': DATE,
                         'Package Name': R[COLUMNS[1]],
                         'Daily Device Installs': R[COLUMNS[2]],
                         'Daily Device Uninstalls': R[COLUMNS[3]],

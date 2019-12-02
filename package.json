@@ -1,6 +1,6 @@
 {
   "name": "@egodigital/google-play-store",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "API client for Google Play Store API.",
   "main": "lib/index.js",
