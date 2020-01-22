@@ -1,6 +1,6 @@
 {
   "name": "@egodigital/google-play-store",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": false,
   "description": "API client for Google Play Store API.",
   "main": "lib/index.js",
@@ -25,15 +25,15 @@
   "homepage": "https://github.com/egodigital/node-google-play-store#readme",
   "devDependencies": {
     "@egodigital/tsconfig": "^1.3.0",
-    "@types/fs-extra": "^8.0.1",
-    "@types/node": "^10.17.6",
-    "@types/tmp": "^0.1.0",
     "tslint": "^5.20.1",
-    "typedoc": "^0.15.2",
-    "typescript": "^3.7.2"
+    "typedoc": "^0.15.8",
+    "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@google-cloud/storage": "^4.1.3",
+    "@google-cloud/storage": "^4.2.0",
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^10.17.13",
+    "@types/tmp": "^0.1.0",
     "csv-parser": "^2.3.2",
     "fs-extra": "^8.1.0",
     "moment": "^2.24.0",
