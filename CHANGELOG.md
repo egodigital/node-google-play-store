@@ -1,5 +1,15 @@
 # Change Log (@egodigital/google-play-store)
 
+## 0.6.0
+
+Add capabilities:
+* Upload build to play store
+* Attach build to play store release
+* Submit play store version for review
+* Add build to group (track)
+* Set localized listings
+* Set version review details
+
 ## 0.3.0
 
 * npm update
