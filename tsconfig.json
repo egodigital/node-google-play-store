@@ -1,7 +1,6 @@
 {
     "extends": "@egodigital/tsconfig",
     "compilerOptions": {
-        "strict": true,
         "outDir": "lib",
         "rootDir": "src",
         "target": "es2017",
